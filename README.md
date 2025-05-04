@@ -16,7 +16,6 @@ TodoListApp is a lightweight, responsive React application for managing daily ta
   * [Running Locally](#running-locally)
 * [Usage](#usage)
 * [Screenshots](#screenshots)
-* [Project Structure](#project-structure)
 * [Contributing](#contributing)
 * [License](#license)
 
@@ -91,26 +90,6 @@ Open your browser at `http://localhost:5173` to view the app.
 <img src="./public/todoSS1.png" alt="Todo Screen 1" width="700" />
 <img src="./public/todoSS2.png" alt="Todo Screen 1" width="300" />
 <img src="./public/todoSS3.png" alt="Todo Screen 1" width="200" />
-
----
-
-## Project Structure
-
-```bash
-todo-list-app/
-├─ public/
-│  ├─ todoSS1.png       # Screenshot 1
-│  ├─ todoSS2.png       # Screenshot 2
-│  └─ todoSS3.png       # Screenshot 3
-├─ src/
-│  ├─ components/      # TaskItem, TodoInput, etc.
-│  ├─ hooks/           # Custom hooks (e.g., useLocalStorage)
-│  ├─ App.js           # Main app component
-│  └─ index.js         # Entry point
-├─ .gitignore
-├─ package.json
-└─ README.md
-```
 
 ---
 
